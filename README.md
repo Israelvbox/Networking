@@ -9,6 +9,7 @@ Este documento tiene como objetivo servir como una guía introductoria al mundo 
 
 - **Redes**
 - **Redes de area local**
+- **Modelo OSI**
 
 ## Contenido
 
@@ -110,7 +111,7 @@ Es una red de área amplia que conecta dispositivos o redes a través de grandes
 
 <img src="https://github.com/Israelvbox/Networking/blob/main/images/pan-man-wan-lan.jfif" width=500px>
 
-## **Capas del Modelo OSI (Detalle y Práctica)**
+## **Modelo OSI**
 
 - Aplicación: Protocolos como HTTP, FTP, DNS.
 - Presentación: Codificación y cifrado.
