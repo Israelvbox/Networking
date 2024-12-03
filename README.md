@@ -177,6 +177,39 @@ TCP/IP es práctico y universal, aunque menos detallado que el modelo OSI.
 
 <br>
 <img src="https://github.com/Israelvbox/Networking/blob/main/images/tcp-ip-model.png" width=500px>
+<br>
+
+
+## Puertos mas usados 
+
+| **Puerto** | **Protocolo** | **Nombre**       | **Descripción**                                                                           |
+|------------|---------------|------------------|-------------------------------------------------------------------------------------------|
+| 20         | TCP           | FTP-Data         | Transmisión de datos FTP.                                                                 |
+| 21         | TCP           | FTP              | Protocolo de transferencia de archivos.                                                   |
+| 22         | TCP           | SSH              | Secure Shell para acceso remoto seguro.                                                   |
+| 23         | TCP           | Telnet           | Protocolo de acceso remoto no seguro.                                                     |
+| 25         | TCP           | SMTP             | Protocolo para envío de correos electrónicos.                                             |
+| 53         | TCP/UDP       | DNS              | Resolución de nombres de dominio.                                                         |
+| 67         | UDP           | DHCP Server      | Asignación de direcciones IP desde el servidor DHCP.                                      |
+| 68         | UDP           | DHCP Client      | Recepción de direcciones IP por el cliente DHCP.                                          |
+| 69         | UDP           | TFTP             | Protocolo trivial de transferencia de archivos.                                           |
+| 80         | TCP           | HTTP             | Protocolo de transferencia de hipertexto (web).                                           |
+| 110        | TCP           | POP3             | Protocolo para recepción de correos electrónicos (Post Office Protocol v3).               |
+| 123        | UDP           | NTP              | Protocolo para sincronización de tiempo.                                                  |
+| 143        | TCP           | IMAP             | Protocolo para gestión de correos electrónicos.                                           |
+| 161        | UDP           | SNMP             | Protocolo de gestión de dispositivos en red.                                              |
+| 162        | UDP           | SNMP             | Notificaciones SNMP para eventos en la red.                                               |
+| 389        | TCP/UDP       | LDAP             | Protocolo ligero de acceso a directorios.                                                 |
+| 443        | TCP           | HTTPS            | HTTP seguro mediante SSL/TLS.                                                             |
+| 445        | TCP           | SMB/CIFS         | Protocolo para compartir archivos e impresoras (Windows).                                 |
+| 514        | UDP           | Syslog           | Registro y recopilación de logs en sistemas Unix/Linux.                                   |
+| 587        | TCP           | SMTP (Submission)| Envío de correos electrónicos con autenticación.                                          |
+| 993        | TCP           | IMAPS            | IMAP seguro mediante SSL/TLS.                                                             |
+| 995        | TCP           | POP3S            | POP3 seguro mediante SSL/TLS.                                                             |
+| 3306       | TCP           | MySQL            | Conexión a bases de datos MySQL.                                                          |
+| 3389       | TCP           | RDP              | Protocolo de escritorio remoto de Microsoft.                                              |
+| 8080       | TCP           | HTTP-Alt         | Puerto alternativo para HTTP.                                                             |
+
 
 
 
