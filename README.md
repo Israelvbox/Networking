@@ -110,6 +110,20 @@ Es una red de área amplia que conecta dispositivos o redes a través de grandes
 
 <img src="https://github.com/Israelvbox/Networking/blob/main/images/pan-man-wan-lan.jfif" width=500px>
 
+## **Capas del Modelo OSI (Detalle y Práctica)**
+
+7 Aplicación: Protocolos como HTTP, FTP, DNS.
+6 Presentación: Codificación y cifrado.
+5 Sesión: Establecimiento de sesiones.
+4 Transporte: TCP/UDP con ejemplos de uso.
+3 Red: IP, routers, subnetting.
+2 Enlace de Datos: MAC addresses, switches.
+1 Física: Tipos de cables, estándares como Ethernet.
+
+<img src="https://github.com/Israelvbox/Networking/blob/main/images/modelos-osi.webp" width=500px>
+
+
+
 
 
    
