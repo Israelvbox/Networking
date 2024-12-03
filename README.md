@@ -12,7 +12,8 @@ Este documento tiene como objetivo servir como una guía introductoria al mundo 
 - **Redes**
 - **Redes de area local**
 - **Modelo OSI**
-- **Modelo TCP/ip**
+- **Modelo TCP/IP**
+- **Protocolos**
 
 ## Contenido
 
