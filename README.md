@@ -2,6 +2,8 @@
 
 Este repositorio contiene conceptos clave y explicaciones detalladas sobre redes informáticas. A continuación, encontrarás los temas cubiertos:
 
+<br>
+
 ## Propósito del Documento
 Este documento tiene como objetivo servir como una guía introductoria al mundo del networking, cubriendo temas esenciales organizados en los siguientes apartados:
 
@@ -10,6 +12,7 @@ Este documento tiene como objetivo servir como una guía introductoria al mundo 
 - **Redes**
 - **Redes de area local**
 - **Modelo OSI**
+- **Modelo TCP/ip**
 
 ## Contenido
 
@@ -19,8 +22,10 @@ Este documento tiene como objetivo servir como una guía introductoria al mundo 
 - Dispositivo: máquina, portátil, móvil, dispositivo de interconexión (router)...
 - Comunicación: intercambio de información sobre cualquier medio
 
+<br>
 <img src="https://github.com/Israelvbox/Networking/blob/main/images/redes.png" width=600px>
 
+<br>
 
 ## Redes de area local
 
@@ -109,7 +114,10 @@ Es una red de área amplia que conecta dispositivos o redes a través de grandes
 - Alta latencia en comparación con LANs y MANs.
 - Costos elevados para implementar y mantener.
 
+<br>
 <img src="https://github.com/Israelvbox/Networking/blob/main/images/pan-man-wan-lan.jfif" width=500px>
+
+<br>
 
 ## **Modelo OSI**
 
@@ -121,8 +129,54 @@ Es una red de área amplia que conecta dispositivos o redes a través de grandes
 - Enlace de Datos: MAC addresses, switches.
 - Física: Tipos de cables, estándares como Ethernet.
 
+<br>
 <img src="https://github.com/Israelvbox/Networking/blob/main/images/modelos-osi.webp" width=500px>
 
+<br>
+
+### **Modelo TCP/IP**
+
+El protocolo **TCP/IP (Transmission Control Protocol/Internet Protocol)** es un conjunto de normas que permite la comunicación entre dispositivos en redes, como Internet. Su diseño se basa en una arquitectura de cuatro capas:
+
+
+#### **1. Capa de Acceso a la Red**
+- **Función:** Maneja la transmisión física de datos en la red local (LAN/WAN).  
+- **Protocolos:** Ethernet, Wi-Fi.  
+
+
+#### **2. Capa de Internet**
+- **Función:** Gestiona el direccionamiento y el enrutamiento de paquetes entre redes.  
+- **Protocolos:**  
+  - **IP:** Direccionamiento lógico.  
+  - **ARP:** Traducción de direcciones IP a MAC.  
+  - **ICMP:** Diagnósticos de red (como `ping`).  
+
+
+#### **3. Capa de Transporte**
+- **Función:** Asegura la entrega confiable o rápida de datos entre dispositivos.  
+- **Protocolos:**  
+  - **TCP:** Confiable, orientado a conexión.  
+  - **UDP:** No confiable, sin conexión, rápido.  
+
+
+#### **4. Capa de Aplicación**
+- **Función:** Interactúa directamente con el usuario y soporta aplicaciones.  
+- **Protocolos:**  
+  - **HTTP:** Navegación web.  
+  - **FTP:** Transferencia de archivos.  
+  - **SMTP:** Envío de correos.  
+  - **DNS:** Resolución de nombres de dominio.
+
+
+### **Características Clave**
+- Escalabilidad: Maneja desde redes pequeñas hasta Internet.  
+- Interoperabilidad: Compatible con hardware y software diverso.  
+- Confiabilidad: TCP asegura la entrega correcta y ordenada.  
+
+TCP/IP es práctico y universal, aunque menos detallado que el modelo OSI.
+
+<br>
+<img src="https://github.com/Israelvbox/Networking/blob/main/images/tcp-ip-model.png" width=500px>
 
 
 
